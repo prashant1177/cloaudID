@@ -35,7 +35,7 @@ export const Features = () => {
     {
       icon: HardDrive,
       title: "Cloud Storage",
-      desc: "Encrypted, identity‑first storage (100GB) that is connected to your cloud ID.",
+      desc: "Encrypted, identity‑first storage (100GB) that is connected to your One ID.",
       color: "text-yellow-400"
     },
     {

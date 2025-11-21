@@ -50,7 +50,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-xl text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed"
         >
-          Cloud ID replaces phone numbers with a universal username — online or offline, connect worldwide.
+          One ID replaces phone numbers with a universal username — online or offline, connect worldwide.
         </motion.p>
 
         <motion.div 
@@ -73,8 +73,6 @@ export const Hero = () => {
           </button>
         </motion.div>
       </motion.div>
-
-
     </section>
   );
 };

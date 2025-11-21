@@ -10,7 +10,7 @@ const steps = [
   {
     num: '02',
     title: 'Connect with users around the world',
-    desc: 'Find anyone from cloud ID — numbers not required.'
+    desc: 'Find anyone from One ID — numbers not required.'
   },
   {
     num: '03',

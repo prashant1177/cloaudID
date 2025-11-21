@@ -26,7 +26,7 @@ export const Navbar = () => {
             <Cloud className="w-8 h-8 text-white group-hover:text-blue-500 transition-colors duration-300" />
             <div className="absolute inset-0 bg-blue-500/20 blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>
-          <span className="text-xl font-bold tracking-tight">Cloud ID</span>
+          <span className="text-xl font-bold tracking-tight">One ID</span>
         </div>
         
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-400">
