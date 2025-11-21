@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Cloud, Twitter, Github, Linkedin } from 'lucide-react';
 
 export const Footer = () => {

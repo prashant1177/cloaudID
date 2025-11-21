@@ -1,17 +1,10 @@
-import React, { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
-import { Bluetooth, Wifi, MessageCircle, MapPin, HardDrive, Gem, Smartphone, Zap } from 'lucide-react';
-import world from "./world.webp"
+
+import { motion} from 'framer-motion';
+import { Bluetooth, Wifi, MessageCircle, MapPin, HardDrive, Gem, Zap } from 'lucide-react';
+import { useRef } from 'react';
 
 export const Features = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start start", "end end"]
-  });
-
-  const globeScale = useTransform(scrollYProgress, [0, 1], [0.8, 1.1]);
-  const globeOpacity = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
 
   const characteristics = [
     {

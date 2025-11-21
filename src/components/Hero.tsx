@@ -1,8 +1,6 @@
-import React from 'react';
+
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight, Play } from 'lucide-react';
-import world from "./world.webp"
-
 export const Hero = () => {
   const { scrollY } = useScroll();
   
