@@ -39,7 +39,7 @@ export const Footer = () => {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-600 text-sm">
-            &copy; {new Date().getFullYear()} One ID Inc. All rights reserved.
+            &copy; 21-11-2025 Created By Prashant Patil.
           </p>
           <div className="flex items-center gap-6">
             <a href="#" className="text-gray-600 hover:text-white transition-colors"><Twitter className="w-5 h-5" /></a>
